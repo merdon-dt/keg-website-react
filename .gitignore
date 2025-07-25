@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+.pnpm/
+
+# Build outputs
+dist/
+build/
+
+# Local environment variables
+.env
+.env.*  # for multiple .env files
+
+# Vite cache
+.vite/
+.vite-temp/
+
+# Editor settings
+.vscode/
+.idea/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Visual Studio files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
